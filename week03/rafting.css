@@ -1,12 +1,28 @@
 * {
 	margin: 0;
 	padding: 0;
+	box-sizing: border-box;
 }
+/*Class Selectors*/
+
+.box {}
 
 main {
 	max-width: 800px;
 	margin: 2rem auto;
 	font-family: Roboto, Arial, sans-serif;
+}
+
+main img{
+float:right;
+}
+
+aside {
+	position:relative;
+}
+
+aside h2{
+	position:absolute;
 }
 
 h2 {
