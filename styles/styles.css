@@ -20,6 +20,16 @@ img {
     padding: 2px;
     box-shadow: 0 0 30px gray;
 }
+
+main img {
+    width: var(--width);
+    height: var(--height);
+}
+
+p {
+    padding: 0;
+}
+
 aside {
     width: 20rem;
     margin: 1rem;
@@ -33,11 +43,6 @@ aside img {
     width: 200px;
     height: auto;
 }
-main img {
-    width: var(--width);
-    height: var(--height);
-}
-p {padding: 0;}
 footer {
     margin-top: 15px;
     border-top: 1px solid #000;
