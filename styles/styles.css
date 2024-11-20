@@ -13,6 +13,17 @@ nav a {
 h1 {
     color: darkblue;
 }
+
+aside {
+    width: 20rem;
+    margin: 1rem;
+    border: 1px solid rgb(0, 0, 0, 0.2); /*1️⃣*/
+    padding: 1rem;
+    background-color: #eee;
+    color: #333;
+    text-align: var(--text-align);
+}
+
 img {
     width: var(--width);
     height: var(--height);
@@ -30,15 +41,6 @@ p {
     padding: 0;
 }
 
-aside {
-    width: 20rem;
-    margin: 1rem;
-    border: 1px solid rgb(0, 0, 0, 0.2); /*1️⃣*/
-    padding: 1rem;
-    background-color: #eee;
-    color: #333;
-    text-align: var(--text-align);
-}
 aside img {
     width: 200px;
     height: auto;
