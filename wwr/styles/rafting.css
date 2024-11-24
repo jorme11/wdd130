@@ -67,6 +67,7 @@ img {
     float: right;
     width: fit-content;
     height: fit-content;
+    text-decoration: none;
 }
 
 footer {
