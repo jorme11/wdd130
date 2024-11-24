@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    color: 4C5B61;
+    padding: .5rem;
+    font-size: 24px;
+    font-family: Outfit;
+    position: absolute
+}
+
+p{
+    color: 2C423F;
+    padding: 0;
+    margin: 1rem;
+    font-size: 16px;
+    font-family: Dosis;
+}
+
+body{
+    font-size: 16px;
+    font-family: Dosis;
+}
+
+main {
+    max-width: 840px;
+}
+nav {
+    background-color: 829191;
+    padding: 10px;
+}
+
+herodiv {
+        position: relative;
+        text align: center;
+        top: 610px;
+        left: 200px;
+}
+
+nav class {
+    text decoration: none;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+article {
+    position: absolute;
+
+}
+
+img {
+    float: right;
+    width:fit-content;
+    height:fit-content;
+}
