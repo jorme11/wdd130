@@ -34,6 +34,10 @@ nav {
     padding: 10px;
 }
 
+nav a {
+    text-decoration: none;
+}
+
 .herodiv {
         position: absolute;
         text-align: right;
@@ -45,6 +49,7 @@ nav {
     display: block;
     width: 100%;
     height: auto;
+    float: right;
 }
 
 article {
