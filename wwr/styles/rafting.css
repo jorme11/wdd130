@@ -5,43 +5,40 @@
 }
 
 h1{
-    color: 4C5B61;
+    color: #4C5B61;
     padding: .5rem;
     font-size: 24px;
-    font-family: Outfit;
-    position: absolute
+    font-family: 'Outfit', sans-serif
 }
 
 p{
-    color: 2C423F;
+    color: #2C423F;
     padding: 0;
     margin: 1rem;
     font-size: 16px;
-    font-family: Dosis;
+    font-family: 'Dosis', sans-serif
 }
 
 body{
     font-size: 16px;
-    font-family: Dosis;
+    font-family: 'Dosis', sans-serif
 }
 
 main {
     max-width: 840px;
+    margin: 0 auto
 }
+
 nav {
-    background-color: 829191;
+    background-color: #829191;
     padding: 10px;
 }
 
-herodiv {
+.herodiv {
         position: relative;
-        text align: center;
+        text-align: right;
         top: 610px;
         left: 200px;
-}
-
-nav class {
-    text decoration: none;
 }
 
 .hero img {
@@ -51,12 +48,23 @@ nav class {
 }
 
 article {
-    position: absolute;
-
+   position: absolute;
 }
 
 img {
     float: right;
-    width:fit-content;
-    height:fit-content;
+    width: fit-content;
+    height: fit-content;
+}
+
+footer {
+    text-align: right;
+}
+
+header {
+	margin: 1rem auto;
+	display: grid;
+	grid-template-columns: 120px 1fr 2fr;
+	align-items: center;
+	border-bottom: 1px solid #ccc;	max-width: 1000px;
 }
