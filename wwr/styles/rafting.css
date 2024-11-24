@@ -65,8 +65,8 @@ img {
 }
 
 footer {
+    margin-top: auto;
     text-align: right;
-    float: right;
 }
 
 header {
