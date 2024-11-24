@@ -68,3 +68,15 @@ header {
 	align-items: center;
 	border-bottom: 1px solid #ccc;	max-width: 1000px;
 }
+
+.box {
+    margin: 1rem;
+    border: 1px solid rgb(0 0 0 / .1);
+    padding: 1.5rem;
+    background-color: #949B96;
+    color: #000;
+}
+
+.indent {
+    padding-left: 2rem;
+}
