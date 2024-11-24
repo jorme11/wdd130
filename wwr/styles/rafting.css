@@ -36,6 +36,7 @@ nav {
 
 nav a {
     text-decoration: none;
+    float: right;
 }
 
 .herodiv {
@@ -43,6 +44,7 @@ nav a {
         text-align: right;
         top: 610px;
         left: 200px;
+        float: right;
 }
 
 .hero img {
@@ -64,6 +66,7 @@ img {
 
 footer {
     text-align: right;
+    float: right;
 }
 
 header {
