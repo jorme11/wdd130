@@ -4,95 +4,130 @@
     box-sizing: border-box;
 }
 
+title {
+    background-color:#4c5861
+}
+
 h1{
     color: #4C5B61;
     padding: .5rem;
     position:absolute;
     font-size: 24px;
-    font-family: 'Outfit', sans-serif
+    font-family: 'Outfit'
+}
+
+hi img{
+    position:absolute;
+    width:auto;
+    height: 50px;
+}
+
+h2{
+    color:#2C423F;
+    padding:.5rem;
+    position:absolute;
+    font-size:24px;
+    font-family: 'Outfit'
+}
+
+h2 img {
+    width:auto;
+    height: 100px;
 }
 
 p{
     color: #2C423F;
     padding: 0;
     margin: 1rem;
-    text-align: right;
+    text-align: left;
     font-size: 16px;
-    font-family: 'Dosis', sans-serif
+    font-family: 'Dosis'
 }
 
-a{
-    text-align: right;
-    
+p img {
+    width:auto;
+    height: 1px;
 }
 
 body{
     font-size: 16px;
-    font-family: 'Dosis', sans-serif
+    font-family: 'Dosis'
 }
 
 main {
     max-width: 840px;
-    margin: 0 auto
+    margin: auto;
 }
 
 nav {
-    background-color: #829191;
+    color: #829191;
     padding: 10px;
+    height:auto;
+    width:100%;
 }
 
-nav a {
+nav img {
+    width:auto;
+    height:fit-content;
+}
+
+ul {
+    text-align: left;
+    width: 100%;
+    height:auto
+}
+
+.sociallinks a {
     text-decoration: none;
-    float: right;
+    text-align: left;
+    color:black;
 }
 
-.herodiv {
-        position: absolute;
-        text-align: right;
-        top: 610px;
-        left: 200px;
-        float: right;
+.sociallinks img {
+    width: 20px;
+    height:auto;
+}
+
+.hero {
+        text-align: left;
+        position: relative;
 }
 
 .hero img {
     display: block;
-    width: 100%;
+    width:200px;
     height: auto;
-    float: right;
+    position: relative;
 }
 
 article {
    position: absolute;
+   clear:both;
 }
 
-img {
-    float: right;
-    width: fit-content;
-    height: fit-content;
-    text-decoration: none;
+article img {
+    width: 300px;
+    height:auto;
+    position:absolute
 }
 
 footer {
     margin-top: auto;
-    text-align: right;
+    text-align: left;
 }
 
-header {
+head {
 	margin: 1rem auto;
 	display: grid;
 	grid-template-columns: 120px 1fr 2fr;
 	align-items: center;
-	border-bottom: 1px solid #ccc;	max-width: 1000px;
+	border-bottom: 1px solid #ccc;	
+    max-width: 1000px;
 }
 
-.box {
-    margin: 1rem;
-    border: 1px solid rgb(0 0 0 / .1);
-    padding: 1.5rem;
-    background-color: #949B96;
-    color: #000;
-}
-
-.indent {
-    padding-left: 2rem;
+:root {
+    --max-width: 500px;
+    --height: auto;
+    --color-scheme: light dark;
+    --text-align: left;
 }
