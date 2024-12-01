@@ -4,49 +4,131 @@
     box-sizing: border-box;
 }
 
+main {
+    width:100%;
+    max-width:840px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
 title {
     background-color:#4c5861
 }
 
-h1{
-    color: #4C5B61;
-    padding: .5rem;
-    position:absolute;
-    font-size: 24px;
-    font-family: 'Outfit'
+header {
+    display: grid;
+    grid-template-columns: 200px 640px;
+    align-items: center;
+    border-bottom: 2px solid #ccc;
+    max-width: 1400px;
+    justify-content: space-between;
+    background-color:#4c5861;
 }
 
-hi img{
-    position:absolute;
-    width:auto;
-    height: 50px;
+header img {
+    margin: 0 .25rem 0 8rem;
+    width:180px;
+    height: auto;
+}
+
+h1{
+    color: #2C423F;
+    font-size: 3rem;
+    font-family: 'Outfit';
+    text-align: center;
+}
+
+nav {
+    color: #829191;
+    text-align: right;
+    flex-wrap: nowrap;
+    display:flex;
+    align-items: center;
+}
+
+nav figure {
+    display: inline-block;
+    margin: 0 15px;
+    text-align: center;
+    width: 150px;
+    margin-bottom: 2rem;
+}
+
+nav figure img {
+    width: 100%;
+    max-width: 100%;
+    align-items: center;
+}
+
+.navigation {
+    display: flex;
+    list-style: none;
+    font-size: 2.5rem;
+}
+
+.navigation a {
+    display: block;
+    color: #2C423F;
+    padding: 20px;
+    text-decoration: none;
+}
+
+section {
+    max-width: 840px;
+    margin: 1rem 1rem 1rem 1rem;
+    align-content: center;
+    margin-bottom: 40px
+
+}
+div {
+    display: flex;
+}
+
+.box {
+    border: 2px solid #333;
 }
 
 h2{
     color:#2C423F;
-    padding:.5rem;
-    position:absolute;
-    font-size:24px;
+    text-align: center;
+    font-size:3rem;
     font-family: 'Outfit'
 }
 
 h2 img {
     width:auto;
     height: 100px;
+    align-self:center;
+    display:grid;
 }
 
-p{
-    color: #2C423F;
-    padding: 0;
+h3{
+    color:#2C423F;
+    text-align: center;
+    font-size:3rem;
+    font-family: 'Outfit'
+}
+
+p {
+    color: black;
     margin: 1rem;
     text-align: left;
     font-size: 16px;
-    font-family: 'Dosis'
+    font-family: 'Dosis';
 }
 
-p img {
-    width:auto;
-    height: 1px;
+.grid-para-1 {
+    display:grid;
+    grid-template-columns: 500px 1px;  
+}
+
+.grid-para-2 {
+    display: grid;
+    grid-template-columns: 3fr .01fr;
+}
+
+img {
+    width:150px;
+    height: 130px;
 }
 
 body{
@@ -59,27 +141,8 @@ main {
     margin: auto;
 }
 
-nav {
-    color: #829191;
-    padding: 10px;
-    height:auto;
-    width:100%;
-}
-
-nav img {
-    width:auto;
-    height:fit-content;
-}
-
-ul {
-    text-align: left;
-    width: 100%;
-    height:auto
-}
-
 .sociallinks a {
     text-decoration: none;
-    text-align: left;
     color:black;
 }
 
@@ -88,45 +151,26 @@ ul {
     height:auto;
 }
 
-.hero {
-        text-align: left;
-        position: relative;
-}
-
-.hero img {
-    display: block;
-    width:200px;
-    height: auto;
-    position: relative;
-}
-
 article {
-   position: absolute;
-   clear:both;
+    display:flex;
+    align-items: flex-start;
+    margin: 0 auto;
 }
 
 article img {
-    width: 300px;
-    height:auto;
-    position:absolute
+    max-width: 150px;
+    height: 100px;
 }
 
 footer {
     margin-top: auto;
-    text-align: left;
-}
-
-head {
-	margin: 1rem auto;
-	display: grid;
-	grid-template-columns: 120px 1fr 2fr;
-	align-items: center;
-	border-bottom: 1px solid #ccc;	
-    max-width: 1000px;
+    background-color:#4c5861;
+    display:flex;
+    justify-content: space-between;
 }
 
 :root {
-    --max-width: 500px;
+    --max-width: 840px;
     --height: auto;
     --color-scheme: light dark;
     --text-align: left;
