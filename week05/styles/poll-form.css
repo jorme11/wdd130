@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    font-family: Roboto, Arial, sans-serif;
+    color: black;
+    background: #fff;
+}
+
+header {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+h1 {
+    margin: 1rem;
+    font-size: 25px;
+    color: black;
+    text-align: center;
+}
+
+main {
+
+}
+
+form {
+    width:500px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 10px solid rgb(0 0 0 / 1);
+    border-radius: 1rem;
+    background-color: aquamarine;
+    display: grid;
+
+}
+
+fieldset {
+    display: grid;
+    grid-gap: .5rem;
+    margin: 1rem;
+    border: 2px solid rgb(0 0 0 / 1);
+    padding: 1rem;
+}
+
+legend {
+    padding: 1rem;
+    color: navy;
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+label, input, button, select, textarea {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+label {
+    text-align: right;
+    padding-right: 1rem;
+}
+
+input, select, textarea {
+    padding: .5rem;
+    font-size: 20px;
+}
+
+input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    vertical-align:bottom;
+}
+
+button {
+    margin: 1rem;
+    background-color: lightskyblue;
+    color: black;
+    border: none;
+    border-radius: .75rem;
+    padding: 1rem;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color:blueviolet;
+}
+
+footer {
+    margin: 2rem auto 0;
+    width: 400px;
+    text-align: center;
+    font-size: 12px;
+    color: black;
+    border-top: 2px solid #ccc;
+}
+
+.form-item {
+    display:grid;
+    align-items: center;
+}
+
+.column1 {
+    grid-template-columns: 3fr 1fr;
+    margin: 1rem 0;
+ 
+    padding-bottom: 1rem;
+}
+
+.column2 {
+    grid-template-columns: 1fr 2fr;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+}
