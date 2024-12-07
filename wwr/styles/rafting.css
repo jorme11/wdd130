@@ -37,6 +37,16 @@ h1{
     text-align: center;
 }
 
+h4{
+    color: #2C423F;
+    font-size: 1.5rem;
+    text-align; center;
+    font-family: 'Outfit';
+}
+
+section {
+    text-align:center;
+}
 nav {
     color: #829191;
     text-align: right;
@@ -99,6 +109,7 @@ h2 img {
     height: 100px;
     align-self:center;
     display:grid;
+    font-family: 'Outfit';
 }
 
 h3{
@@ -174,4 +185,36 @@ footer {
     --height: auto;
     --color-scheme: light dark;
     --text-align: left;
+}
+
+legend{
+    color:#2C423F;
+    text-align: left;
+    font-size:2rem;
+    font-family: 'Outfit'
+    
+}
+
+.form-item {
+    color:#2C423F;
+    text-align: left;
+    font-size:1rem;
+    font-family: 'Outfit'
+}
+
+label {
+    color:#2C423F;
+    text-align: left;
+    font-size:1rem;
+    font-family: 'Outfit'
+}
+
+button {
+    margin: 1rem;
+    background-color: lightskyblue;
+    color: #2C423F;
+    border-radius: .75rem;
+    padding: 1rem;
+    font-size: 16px;
+    font-family: 'Outfit';
 }
