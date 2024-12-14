@@ -164,7 +164,6 @@ img {
 }
 
 .why {
-    grid-template-columns:subgrid;
     padding: 1.5rem;
     text-align:left;
     
