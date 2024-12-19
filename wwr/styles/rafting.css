@@ -8,7 +8,7 @@
 main {
     width:100%;
     margin: 0 auto;
-    padding: 0 20px;
+    /*padding: 0 20px;*/
 }
 
 section.hero-image {
@@ -31,7 +31,7 @@ header {
     align-items: center;
     border-bottom: 2px solid #ccc;
     justify-content: space-between;
-    background-color:#829191;
+    background-color:#ABB5B5;
     font-family: "Outfit"
 }
 
@@ -208,7 +208,7 @@ article img {
 
 footer {
     margin-top: auto;
-    background-color:#829191;
+    background-color:#ABB5B5;
     display:flex;
     justify-content: space-between;
 }
@@ -297,4 +297,10 @@ th{
 
 fieldset {
     padding: 1rem;
+}
+
+.grid-this {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 1rem;
 }
