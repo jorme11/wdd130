@@ -7,9 +7,19 @@
 
 main {
     width:100%;
-    max-width:840px;
     margin: 0 auto;
     padding: 0 20px;
+}
+
+section.hero-image {
+    max-width: 100%;
+
+}
+
+main section {
+    max-width: 840px;
+    margin:auto;
+    text-align: center;
 }
 title {
     background-color:#4c5861
@@ -175,11 +185,6 @@ body{
     font-family: 'Dosis'
 }
 
-main {
-    max-width: 840px;
-    margin: auto;
-}
-
 .sociallinks a {
     text-decoration: none;
     color:black;
@@ -288,4 +293,8 @@ table {
 th{
     font-weight:bold;
     color:navy;
+}
+
+fieldset {
+    padding: 1rem;
 }
